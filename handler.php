@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <form action="#">
+    <form action="handler.php" name="textfield" method="post">
       <div class="mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" id="sample1">
     <label class="mdl-textfield__label" for="sample1">Text...</label>
