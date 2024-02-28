@@ -8,7 +8,15 @@
   </head>
 
   <body>
-    
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1">Text...</label>
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+      <i class="material-icons">add</i>
+    </button>
+      </div>
+    </form>
     <?php
     $userName = "";
     if ( isset( $_POST['userName'] ) ){
